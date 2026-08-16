@@ -1,44 +1,51 @@
-# SPECTRA-X
-## AI-Based Restoration of Degraded Semiconductor Inspection Images
+# TEAM WAFER VISION
 
-SPECTRA-X is a lightweight deep-learning image restoration system developed for the **SEMICON India Hackathon 2026 – KLA Problem Statement 1**.
+### **See Beyond the Limits**
 
-The system is designed to restore degraded semiconductor inspection images by suppressing noise, increasing spatial resolution, and recovering fine structural details while maintaining practical inference speed.
+<p align="center">
+
+## SPECTRA-X
+### AI-Based Restoration of Degraded Semiconductor Inspection Images
+
+**SEMICON India Hackathon 2026 · KLA Problem Statement 1**
+
+</p>
 
 ---
 
-## Team
+## TEAM WAFER VISION
 
-**Ashmita Sarkar**  
-**Rakhi Kalowar**  
-**Rabinath Goswami**  
-**Vishal Manta**
+### **See Beyond the Limits**
+
+**Team Members**
+
+- **Ashmita Sarkar**
+- **Rakhi Kalowar**
+- **Rabinath Goswami**
+- **Vishal Manta**
 
 **Department of Physics**  
 **Indian Institute of Technology Guwahati**
 
 ---
 
-## Problem Statement
+# SPECTRA-X
 
-Semiconductor inspection images can suffer from degradation such as noise, reduced spatial resolution, and loss of fine structural information.
+**SPECTRA-X** is a lightweight deep-learning image restoration system developed by **Team WAFER VISION** for the **SEMICON India Hackathon 2026 – KLA Problem Statement 1**.
 
-SPECTRA-X addresses this problem using a lightweight restoration network that performs simultaneous:
-
-- Noise suppression
-- Structural restoration
-- Edge preservation
-- 2× super-resolution
+The system restores degraded semiconductor inspection images by combining **noise suppression, structural restoration, edge preservation and 2× super-resolution** while maintaining low computational complexity and fast inference.
 
 ### Input → Output
 
 ```text
 Degraded Low-Resolution Image
-128 × 128
-        │
-        ▼
-    SPECTRA-X
-        │
-        ▼
+          128 × 128
+              │
+              ▼
+       ┌──────────────┐
+       │  SPECTRA-X   │
+       └──────────────┘
+              │
+              ▼
 Restored High-Resolution Image
-256 × 256
+          256 × 256
