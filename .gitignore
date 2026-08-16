@@ -1,0 +1,22 @@
+# Dataset
+dataset/
+data/
+*.npy
+
+# Google Colab
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Temporary outputs
+test_restored/
+tmp/
+temp/
+
+# Experimental checkpoints
+*_latest.pth
+*_checkpoint.pth
+
+# System files
+.DS_Store
+*.swp
